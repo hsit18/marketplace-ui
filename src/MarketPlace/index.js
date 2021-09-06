@@ -1,8 +1,7 @@
 import React from 'react';
 import Typography from '@material-ui/core/Typography';
 
-import ProductFilter from '../ProductFilter';
-import ProductCard from '../ProductCard';
+import ProductCard from './ProductCard';
 
 const MarketPlace = () => {
     return (
