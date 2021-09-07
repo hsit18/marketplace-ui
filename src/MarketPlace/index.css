@@ -15,7 +15,7 @@
   background-color: #fff;
   display: flex;
   flex-direction: column;
-  margin: 0 8px 8px 0;
+  margin: 0 16px 16px 0;
   height: 200px;
   width: 250px;
   border-radius: 5px;
@@ -23,6 +23,9 @@
   padding: 10px;
 }
 
+.product-card-title {
+  color: #4A48E7;
+}
 .product-card-subtitle {
   display: flex;
   align-items: center;
@@ -30,11 +33,13 @@
 }
 
 .badge {
-  background-color: #4ecd4e;
-  color: #fff;
-  padding: 0px 3px;
-  border-radius: 20%;
-  margin: 0 2px;
+  background-color: #7DD82F;
+  padding: 1px 3px;
+  display: inline-block;
+  font-size: 0.8rem;
+  color: white;
+  border-radius: 3px;
+  margin-top: 3px;
 }
 
 .pipe {

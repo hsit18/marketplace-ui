@@ -7,7 +7,7 @@ const ProductCard = () => {
     return (
         <div className="product-card">
             <div className="product-card-title">
-                <Typography variant="body1" component="h3" color="primary" style={{ fontWeight: 'bold' }}>
+                <Typography variant="h6" component="h3" color="primary" style={{ fontWeight: 'bold' }}>
                     Contract Bonus
                 </Typography>
 
@@ -17,7 +17,7 @@ const ProductCard = () => {
                 <span className="pipe">|</span>
                 <Rating name="read-only" value={5} readOnly size="small" />
                 <span className="pipe">|</span>
-                <Typography variant="subtitle2">
+                <Typography variant="caption">
                     14 reviews
                 </Typography>
             </div>
@@ -26,7 +26,7 @@ const ProductCard = () => {
             </div>
 
             <div className="product-card-description">
-                <Typography variant="subtitle2" component="p" paragraph>
+                <Typography variant="caption" component="p" paragraph>
                     Description upto 200 characters Description upto 200 characters Description upto 200 characters  Description upto 200 characters Description upto 200 characters Description upto 200 characters
                 </Typography>
             </div>
