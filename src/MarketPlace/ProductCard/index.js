@@ -10,9 +10,7 @@ const ProductCard = () => {
                 <Typography variant="body1" component="h3" color="primary" style={{ fontWeight: 'bold' }}>
                     Contract Bonus
                 </Typography>
-                <Typography variant="subtitle2">
-                    12323232323
-                </Typography>
+
             </div>
             <div className="product-card-subtitle">
                 <span className="badge">xls</span>
@@ -23,10 +21,18 @@ const ProductCard = () => {
                     14 reviews
                 </Typography>
             </div>
+            <div className="product-source">
+                Source: https://dgs.verizon.com
+            </div>
+
             <div className="product-card-description">
                 <Typography variant="subtitle2" component="p" paragraph>
                     Description upto 200 characters Description upto 200 characters Description upto 200 characters  Description upto 200 characters Description upto 200 characters Description upto 200 characters
                 </Typography>
+            </div>
+            <div className="product-footer">
+                <div class="subscribers"><img src="img/user.svg" /> 143</div>
+                <div class="add_to_cart"><img src="img/add_to_cart.svg" height="30px;" /></div>
             </div>
         </div>
     )
