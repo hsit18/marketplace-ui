@@ -13,15 +13,17 @@ const MarketPlace = () => {
                 <Typography variant="body1">
                     MarketPlace / All Products
                 </Typography>
+                <span className="add-cart">2</span>
             </div>
             <div className="product-search">
-                <TextField id="outlined-basic" label="" variant="outlined" size="small" fullWidth InputProps={{
+                <TextField id="outlined-basic" label="" variant="outlined" size="small" placeholder="Search Products" fullWidth InputProps={{
                     startAdornment: (
                         <InputAdornment position="start">
                             <SearchIcon />
                         </InputAdornment>
                     ),
                 }} />
+                <img className="filtericon" src="img/filter.svg" />
             </div>
 
             <div className="product-list">
