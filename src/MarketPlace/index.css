@@ -145,11 +145,15 @@
 }
 
 .product-download {
-  margin: 15px 0;
+  margin-bottom: 15px;
   display: flex;
 }
 
 .product-download img {
   margin: 0 4px;
   width: 15px
+}
+
+.attributes {
+  margin-bottom: 15px;
 }

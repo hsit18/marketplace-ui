@@ -1,6 +1,9 @@
 import React from 'react';
 import Typography from '@material-ui/core/Typography';
+import Button from '@material-ui/core/Button';
 import Rating from '@material-ui/lab/Rating';
+import ArrowForward from '@material-ui/icons/ArrowForward';
+
 import '../index.css';
 
 const ProductCard = () => {
@@ -70,8 +73,11 @@ const ProductCard = () => {
                         PROS
                     </span>
                 </div>
+                <Button variant="outlined" color="primary" endIcon={<ArrowForward />}>
+                    View All Details
+                </Button>
             </div>
-        </div>
+        </div >
     )
 }
 
