@@ -1,19 +1,19 @@
 import React from 'react';
 import Typography from '@material-ui/core/Typography';
-import Button from '@material-ui/core/Button';
 import Rating from '@material-ui/lab/Rating';
-import ArrowForward from '@material-ui/icons/ArrowForward';
 
 import '../index.css';
 
-const ProductCard = () => {
+const ProductCard = ({card, click, close}) => {
+   
     return (
         <div className="product-card">
-            <div className="product-card-title">
+                
+            <div className="product-card-title" id={Date.now()} onMouseEnter={click}>
                 <Typography variant="h6" component="h3" color="primary" style={{ fontWeight: 'bold' }}>
                     Contract Bonus
                 </Typography>
-            </div>
+             </div>
             <div className="product-card-subtitle">
                 <span className="badge">xls</span>
                 <span className="pipe">|</span>
@@ -36,48 +36,7 @@ const ProductCard = () => {
                 <div class="subscribers"><img src="img/user.svg" /> 143</div>
                 <div class="add_to_cart"><img src="img/add_to_cart.svg" height="30px;" /></div>
             </div>
-            <div className="product-card-content">
-                <Typography variant="subtitle1" component="h3" style={{ fontWeight: 'bold' }}>
-                    Available Formats
-                </Typography>
-                <div className="product-card-subtitle">
-                    <span className="badge">xls</span>
-                </div>
-                <div className="product-dates">
-                    <div className="col">
-                        <Typography variant="caption" component="p" style={{ fontWeight: 'bold' }}>
-                            Date Created
-                        </Typography>
-                        <Typography variant="caption" component="p">
-                            12 May 2021
-                        </Typography>
-                    </div>
-
-                    <div className="col">
-                        <Typography variant="caption" component="p" style={{ fontWeight: 'bold' }}>
-                            Date Modified
-                        </Typography>
-                        <Typography variant="caption" component="p">
-                            14 May 2021
-                        </Typography>
-                    </div>
-                </div>
-                <div className="product-source product-download">
-                    <img src="img/download.svg" /> https://dgs.verizon.com
-                </div>
-                <div className="attributes">
-                    <span className="chip">
-                        CUST
-                    </span>
-                    <span className="chip">
-                        PROS
-                    </span>
-                </div>
-                <Button variant="outlined" color="primary" endIcon={<ArrowForward />}>
-                    View All Details
-                </Button>
-            </div>
-        </div >
+        </div>
     )
 }
 
