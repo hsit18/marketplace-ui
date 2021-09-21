@@ -1,0 +1,59 @@
+
+.pending-request-container {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+}
+
+.product-search {
+  margin: 0 10px;
+  width: 75%;
+  display: flex;
+}
+.filtericon {
+  width: 45px;
+  margin: 0 20px;
+}
+
+.left-section {
+  flex: 1;
+}
+
+.right-section {
+  width: 40%;
+  background-color: #80808014;
+  border: 1px solid #80808082;
+  padding: 15px 15px 0 25px;
+}
+
+.product-title {
+  display: flex;
+  justify-content: space-between;
+  height: 60px;
+  padding: 10px 0 10px 10px;
+}
+
+.product-card-title {
+  color: #4A48E7;
+}
+
+.right-header {
+  display: flex;
+  align-items: flex-start;
+}
+
+.header {
+  flex: 1;
+}
+
+.right-header button {
+  margin-left: 8px;
+}
+
+.label-value {
+  margin: 5px;
+}
+
+.right-row {
+  display: flex;
+}

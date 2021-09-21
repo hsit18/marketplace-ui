@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import CssBaseline from '@material-ui/core/CssBaseline';
 import { ThemeProvider } from '@material-ui/core/styles';
 import './index.css';
-import MarketPlace from './MarketPlace';
+import PendingRequest from './PendingRequest';
 import reportWebVitals from './reportWebVitals';
 import theme from './theme';
 
@@ -12,7 +12,7 @@ ReactDOM.render(
     <ThemeProvider theme={theme}>
       <CssBaseline />
 
-      <MarketPlace />
+      <PendingRequest />
     </ThemeProvider>
   </React.StrictMode>,
   document.getElementById('root')
