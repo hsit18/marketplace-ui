@@ -43,7 +43,11 @@
 }
 
 .header {
-  flex: 1;
+  flex: 1 1;
+  height: 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
 
 .right-header button {
@@ -56,4 +60,6 @@
 
 .right-row {
   display: flex;
+  justify-content: space-between;
+  width: 85%;
 }
